@@ -1,0 +1,11 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Only do the FLIP-style animations when no reduced-motion preference */
+@media (prefers-reduced-motion: no-preference) {
+	[style*='--tag'] {
+		view-transition-name: var(--tag);
+	}
+}

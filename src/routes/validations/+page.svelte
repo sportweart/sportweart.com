@@ -1,0 +1,42 @@
+<script>
+	// Define schema with Yup
+	// @ts-ignore
+	import * as yup from 'yup';
+	const schema = yup.object().shape({
+		email: yup.string().required('Please provide your email').email("Email doesn't look right"),
+		password: yup.string().required('Password is required')
+	});
+
+	let values = {};
+	let errors = {};
+
+	async function submitHandler() {
+		try {
+			// `abortEarly: false` to get all the errors
+			await schema.validate(values, { abortEarly: false });
+			alert(JSON.stringify(values, null, 2));
+			errors = {};
+		} catch (err) {
+			errors = extractErrors(err);
+		}
+	}
+	function extractErrors(err) {
+		return err.inner.reduce((acc, err) => {
+			return { ...acc, [err.path]: err.message };
+		}, {});
+	}
+</script>
+
+<form on:submit|preventDefault={submitHandler}>
+	<div>
+		<input type="text" name="email" bind:value={values.email} placeholder="Your email" />
+		{#if errors.email}{errors.email}{/if}
+	</div>
+	<div>
+		<input type="password" name="password" bind:value={values.password} placeholder="Password" />
+		{#if errors.password}{errors.password}{/if}
+	</div>
+	<div>
+		<button type="submit">Register</button>
+	</div>
+</form>
