@@ -215,7 +215,9 @@
 	<div style="display: contents">
 		%sveltekit.body%
 	</div>
-	<!-- Brand -->
+
+
+	
 	<div class="xs-purple-bg xs-section-padding-xs">
 		<div class="container">
 			<div class="row align-items-center">
@@ -242,7 +244,6 @@
 		</div><!-- .container END -->
 	</div>
 
-	<!-- footer start -->
 	<footer class="footer-1">
 		<div class="xs-footer-top">
 			<div class="container">
@@ -333,28 +334,19 @@
 		</div><!-- .xs-footer-bottom END -->
 	</footer>
 
-	<!-- js file start -->
-
-
-
 	<script>
-		// Función para mostrar la alerta cuando cambia la parte hash de la URL
-	
-
 		function hideBanner() {
 			const banner = document.getElementById("banner");
 			if (banner) {
 				banner.style.display = "none";
 			}
 		}
-
 		function showBanner() {
 			const banner = document.getElementById("banner");
 			if (banner) {
 				banner.style.display = "block";
 			}
 		}
-
 		function handleRouteChange() {
 			const currentURL = window.location.pathname;
 
