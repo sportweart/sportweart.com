@@ -768,7 +768,7 @@ export const PRODUCTS = [
     {
         id: 355,
         name: "CAMISA PROSCIENCE",
-        category: "eportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/08/12067.jpg",
         price: 55000
     },
@@ -808,7 +808,7 @@ export const PRODUCTS = [
     {
         id: 169,
         name: "CARNIVOR ISOLATE 2 LIBRAS SABOR CHOCOLATE",
-        category: "a Limpia",
+        category: "Proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/7001.jpg",
         price: 180000
     },
@@ -816,7 +816,7 @@ export const PRODUCTS = [
     {
         id: 170,
         name: "CARNIVOR ISOLATE 2 LIBRAS SABOR COOKIES",
-        category: "a Limpia",
+        category: "Proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/7002.jpg",
         price: 180000
     },
@@ -824,7 +824,7 @@ export const PRODUCTS = [
     {
         id: 172,
         name: "CARNIVOR ISOLATE 2 LIBRAS SABOR VAINILLA CARAMEL",
-        category: "a Limpia",
+        category: "Proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/7004.jpg",
         price: 180000
     },
@@ -832,7 +832,7 @@ export const PRODUCTS = [
     {
         id: 820,
         name: "CARNIVOR ISOLATE 4 LIBRAS SABOR COOKIES",
-        category: "a Limpia",
+        category: "Proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/7029.jpg",
         price: 262000
     },
@@ -840,7 +840,7 @@ export const PRODUCTS = [
     {
         id: 177,
         name: "CARNIVOR ISOLATE 4 LIBRAS SABOR VAINILLA CARAMEL",
-        category: "a Limpia",
+        category: "Proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/7009.jpg",
         price: 262000
     },
@@ -967,7 +967,7 @@ export const PRODUCTS = [
     {
         id: 55,
         name: "COMPLEX NIGHT 8 HORAS 2.1 LIBRAS SABOR VAINILLA",
-        category: "a Limpia",
+        category: "Proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/2025.jpg",
         price: 130000
     },
@@ -1277,7 +1277,7 @@ export const PRODUCTS = [
     {
         id: 3254,
         name: " DISCO OLIMPICO HIERRO COLOR NEGRO DE 5KG",
-        category: "o deportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/07/24018.jpg",
         price: 84000
     },
@@ -1333,7 +1333,7 @@ export const PRODUCTS = [
     {
         id: 89,
         name: "ELITE 100 % WHEY DYMATIZE  5 LIBRAS SABOR RICH CHO",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/5002.jpg",
         price: 292000
     },
@@ -1349,7 +1349,7 @@ export const PRODUCTS = [
     {
         id: 3654,
         name: "EMBUDO MACRO BLENDS",
-        category: "o deportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/08/30016.jpg",
         price: 10000
     },
@@ -1357,7 +1357,7 @@ export const PRODUCTS = [
     {
         id: 3552,
         name: "EMBUDO PROSCIENCE",
-        category: "o deportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/08/12065.jpg",
         price: 12000
     },
@@ -1461,7 +1461,7 @@ export const PRODUCTS = [
     {
         id: 52,
         name: "GAINZ 3.2 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/2022.jpg",
         price: 90000
     },
@@ -1469,7 +1469,7 @@ export const PRODUCTS = [
     {
         id: 53,
         name: "GAINZ 6.4 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/2023.jpg",
         price: 170000
     },
@@ -1478,7 +1478,7 @@ export const PRODUCTS = [
         id: 58,
         name: "GLUTA STACK 1.1 LIBRAS SABOR FRUTOS ROJOS",
         category: "Glutamina",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/2028-2.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/2028-2.jpg",
         price: 65000
     },
 
@@ -1675,7 +1675,7 @@ export const PRODUCTS = [
         id: 3905,
         name: " HYDE XTREME PROSUPPS 30 SERVICIOS SABOR SUCKER",
         category: "Pre entreno",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/09/31002.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/09/31002.jpg",
         price: 109000
     },
 
@@ -1691,7 +1691,7 @@ export const PRODUCTS = [
         id: 3906,
         name: " HYDRO BCAA PROSUPPS 30 SERVICIOS SABOR FRUIT PUNCH",
         category: "Aminoacidos",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/09/31003.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/09/31003.jpg",
         price: 116000
     },
 
@@ -1699,7 +1699,7 @@ export const PRODUCTS = [
         id: 283,
         name: " HYDROXYCUT ELITE 100 CAPSULAS",
         category: "Quemador",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/11001.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/11001.jpg",
         price: 92000
     },
 
@@ -1707,7 +1707,7 @@ export const PRODUCTS = [
         id: 847,
         name: " HYDROXYCUT SUPER ELITE 120 CAPSULAS",
         category: "Quemador",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/11050.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/11050.jpg",
         price: 134000
     },
 
@@ -1715,7 +1715,7 @@ export const PRODUCTS = [
         id: 3910,
         name: " IBUTAMOREN WESCOTT 10MG - 100 TABLETAS",
         category: "Salud general",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/09/27018.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/09/27018.jpg",
         price: 128000
     },
 
@@ -1723,7 +1723,7 @@ export const PRODUCTS = [
         id: 766,
         name: " INTENZE 14 SERVICIOS SABOR FRUIT PUNCH",
         category: "Envio gratis",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/12049.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/12049.jpg",
         price: 71000
     },
 
@@ -1731,7 +1731,7 @@ export const PRODUCTS = [
         id: 347,
         name: " INTENZE 30 SERVICIOS SABOR CITRUS PUNCH",
         category: "Envio gratis",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/12031.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/12031.jpg",
         price: 140000
     },
 
@@ -1739,7 +1739,7 @@ export const PRODUCTS = [
         id: 349,
         name: " INTENZE 30 SERVICIOS SABOR FRUIT PUNCH",
         category: "Envio gratis",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/12033.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/12033.jpg",
         price: 140000
     },
 
@@ -1747,7 +1747,7 @@ export const PRODUCTS = [
         id: 348,
         name: " INTENZE 30 SERVICIOS SABOR WATERMELON",
         category: "Envio gratis",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/12032.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/12032.jpg",
         price: 140000
     },
 
@@ -1859,7 +1859,8 @@ export const PRODUCTS = [
     {
         id: 127,
         name: "ISO 100 - 5 LIBRAS SABOR COOKIES AND CREAM",
-        category: "Proteina Limpia dimage:https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/5040.jpg",
+        category: "Proteina Limpia",
+        image:"https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/5040.jpg",
         price: "376.000"
     },
 
@@ -1883,7 +1884,7 @@ export const PRODUCTS = [
         id: 3644,
         name: "ISO BLEND 2 LIBRAS SABOR CREAMY VAINILLA",
         category: "Proteina Limpia",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/08/30006.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/08/30006.jpg",
         price: 208000
     },
 
@@ -1955,7 +1956,7 @@ export const PRODUCTS = [
         id: 701,
         name: "ISOLATE GOURMET 2 LIBRAS  SABOR VAINILLA",
         category: "proteina Limpia",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16023.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16023.jpg",
         price: 185000
     },
 
@@ -1963,7 +1964,7 @@ export const PRODUCTS = [
         id: 395,
         name: "ISOLATE GOURMET 2 LIBRAS SABOR COOKIES AND CREAM",
         category: "proteina Limpia",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16001.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16001.jpg",
         price: 185000
     },
 
@@ -1971,7 +1972,7 @@ export const PRODUCTS = [
         id: 702,
         name: "ISOLATE GOURMET 5 LIBRAS  SABOR VAINILLA",
         category: "proteina Limpia",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16024.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16024.jpg",
         price: 370000
     },
 
@@ -1979,7 +1980,7 @@ export const PRODUCTS = [
         id: 396,
         name: "ISOLATE GOURMET 5 LIBRAS SABOR COOKIES AND CREAM",
         category: "proteina Limpia",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16002.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16002.jpg",
         price: 370000
     },
 
@@ -2043,7 +2044,7 @@ export const PRODUCTS = [
     {
         id: 3054,
         name: "LA WEY 1,72 LIBRAS SABOR CHOCOLATE",
-        category: "a Limpia",
+        category: "Proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/06/20004.jpg",
         price: 109000
     },
@@ -2051,8 +2052,8 @@ export const PRODUCTS = [
     {
         id: 782,
         name: "LA WEY 1,72 LIBRAS SABOR VAINILLA",
-        category: "a Limpia",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/20002.jp",
+        category: "Proteina Limpia",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/20002.jpg",
         price: 109000
     },
 
@@ -2060,8 +2061,8 @@ export const PRODUCTS = [
     {
         id: 2469,
         name: "LAMINA DE PISO EN CAUCHO 50X50",
-        category: "eportivo",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/24002.jp",
+        category: "equipo deportivo",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/24002.jpg",
         price: 7900
     },
 
@@ -2086,8 +2087,8 @@ export const PRODUCTS = [
     {
         id: 2381,
         name: "LAZO PARA SALTO CON RODAMIENTOS SELLADOS",
-        category: "eportivo",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/24001.jp",
+        category: "equipo deportivo",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/24001.jpg",
         price: 18000
     },
 
@@ -2095,7 +2096,7 @@ export const PRODUCTS = [
         id: 3283,
         name: "LEAN XT IBUTAMOREN 10MG &amp; CARDARINE",
         category: "Sarms",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/07/26005.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/07/26005.jpg",
         price: 110000
     },
 
@@ -2103,7 +2104,7 @@ export const PRODUCTS = [
         id: 3350,
         name: "LEGACY CREATINE 50 SERVICIOS SABOR FRUIT",
         category: "Creatina",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/07/12062.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/07/12062.jpg",
         price: 110000
     },
 
@@ -2111,7 +2112,7 @@ export const PRODUCTS = [
         id: 2577,
         name: "LEGACY CREATINE 50 SERVICIOS SABOR GRAPE",
         category: "Creatina",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/12061.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/12061.jpg",
         price: 110000
     },
 
@@ -2258,7 +2259,7 @@ export const PRODUCTS = [
         id: 874,
         name: "LIV 52 - 100 TABLETAS",
         category: "Salud general",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/21007.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/21007.jpg",
         price: 55000
     },
 
@@ -2273,16 +2274,16 @@ export const PRODUCTS = [
     {
         id: 2472,
         name: "MANCUERNA REDONDA ENCAUCHETADA 10 LIBRAS",
-        category: "quipo deportivo",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/24005.jp",
+        category: "equipo deportivo",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/24005.jpg",
         price: 83000
     },
 
     {
         id: 2473,
         name: "MANCUERNA REDONDA ENCAUCHETADA 5 LIBRAS",
-        category: "quipo deportivo",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/24006.jp",
+        category: "equipo deportivo",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/24006.jpg",
         price: 55000
     },
 
@@ -2435,7 +2436,7 @@ export const PRODUCTS = [
     {
         id: 34,
         name: "MEGAPLEX LITE 3 LIBRAS SABOR VA",
-        category: "a Limpia",
+        category: "Proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/2004.jpg",
         price: 190000
     },
@@ -3089,7 +3090,7 @@ export const PRODUCTS = [
     {
         id: 371,
         name: "PROTON WHEY 2 LIBRAS SABOR VAINILLA",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/14001.jpg",
         price: 150000
     },
@@ -3097,7 +3098,7 @@ export const PRODUCTS = [
     {
         id: 3897,
         name: "PROTON WHEY 4 LIBRAS SABOR CHOCOLATE",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "",
         price: 279000
     },
@@ -3105,7 +3106,7 @@ export const PRODUCTS = [
     {
         id: 3898,
         name: "PROTON WHEY 4 LIBRAS SABOR FRESA",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "",
         price: 279000
     },
@@ -3113,7 +3114,7 @@ export const PRODUCTS = [
     {
         id: 3896,
         name: "PROTON WHEY 4 LIBRAS SABOR VAINILLA",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/09/14012.jpg",
         price: 279000
     },
@@ -3220,7 +3221,7 @@ export const PRODUCTS = [
         id: 848,
         name: "PSYCHOTIC TRADICIONAL 35 SERVICIOS SABOR GRAPE",
         category: "Pre entreno",
-        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/3226.jp",
+        image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/3226.jpg",
         price: 135000
     },
 
@@ -3315,7 +3316,7 @@ export const PRODUCTS = [
     {
         id: 462,
         name: "RESTORE 120 CAPSULAS",
-        category: "lud general",
+        category: "salud general",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/3033.jpg",
         price: 199000
     },
@@ -3339,7 +3340,7 @@ export const PRODUCTS = [
     {
         id: 3484,
         name: "RUEDA ABDOMINAL DOBLE LLANTA EN GOMA",
-        category: "o deportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/08/24022.jpg",
         price: 45000
     },
@@ -3349,7 +3350,7 @@ export const PRODUCTS = [
     {
         id: 877,
         name: "SERIOUS MASS 12 LIBRAS SABOR BANANO",
-        category: "ador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/10050.jpg",
         price: 287000
     },
@@ -3357,7 +3358,7 @@ export const PRODUCTS = [
     {
         id: 267,
         name: "SERIOUS MASS 12 LIBRAS SABOR VAINILLA",
-        category: "ador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/10023.jpg",
         price: 287000
     },
@@ -3365,7 +3366,7 @@ export const PRODUCTS = [
     {
         id: 262,
         name: "SERIOUS MASS 6 LIBRAS SABOR VAINILLA",
-        category: "ador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/10018.jpg",
         price: 186000
     },
@@ -3373,7 +3374,7 @@ export const PRODUCTS = [
     {
         id: 2474,
         name: "SET DE 5 BANDAS ELASTICAS",
-        category: "po deportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/24007.jpg",
         price: 33000
     },
@@ -3381,7 +3382,7 @@ export const PRODUCTS = [
     {
         id: 2561,
         name: "SET DE 5 BANDAS TUBULARES 120 CM",
-        category: "po deportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/05/24010.jpg",
         price: 70000
     },
@@ -3389,7 +3390,7 @@ export const PRODUCTS = [
     {
         id: 3653,
         name: "SHAKER MACRO BLENDS",
-        category: "po deportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/08/30015.jpg",
         price: 20000
     },
@@ -3397,7 +3398,7 @@ export const PRODUCTS = [
     {
         id: 3553,
         name: "SHAKER PROSCIENCE",
-        category: "po deportivo",
+        category: "equipo deportivo",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/08/12066.jpg",
         price: 20000
     },
@@ -3610,7 +3611,7 @@ export const PRODUCTS = [
     {
         id: 133,
         name: "SUPER MASS GAINER 6 LIBRAS  SABOR VAINILLA",
-        category: "dor de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/5046.jpg",
         price: 228000
     },
@@ -3618,7 +3619,7 @@ export const PRODUCTS = [
     {
         id: 362,
         name: "SUPER MEGA GAINER 10 LIBRAS SABOR VAINILLA",
-        category: "dor de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/13003.jpg",
         price: 215000
     },
@@ -3626,7 +3627,7 @@ export const PRODUCTS = [
     {
         id: 360,
         name: "SUPER MEGA GAINER 2 LIBRAS SABOR VAINILLA",
-        category: "dor de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/13001.jpg",
         price: 55000
     },
@@ -3634,7 +3635,7 @@ export const PRODUCTS = [
     {
         id: 361,
         name: "SUPER MEGA GAINER 5 LIBRAS SABOR VAINILLA",
-        category: "dor de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/13002.jpg",
         price: 122000
     },
@@ -3737,7 +3738,7 @@ export const PRODUCTS = [
     {
         id: 167,
         name: "SYNTHA 6 - 10 LIBRAS SABOR VAINILLA",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/6024.jpg",
         price: 509000
     },
@@ -3745,7 +3746,7 @@ export const PRODUCTS = [
     {
         id: 164,
         name: "SYNTHA 6 - 5 LIBRAS SABOR CHOCOLATE",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/6021.jpg",
         price: 251000
     },
@@ -3753,7 +3754,7 @@ export const PRODUCTS = [
     {
         id: 166,
         name: "SYNTHA 6 - 5 LIBRAS SABOR COOKIES AND CREAM",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/6023.jpg",
         price: 251000
     },
@@ -3761,7 +3762,7 @@ export const PRODUCTS = [
     {
         id: 161,
         name: "SYNTHA 6 - 5 LIBRAS SABOR VAINILLA",
-        category: "eina Limpia",
+        category: "proteina Limpia",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/6018.jpg",
         price: 251000
     },
@@ -3874,7 +3875,7 @@ export const PRODUCTS = [
     {
         id: 658,
         name: "THE WHEY OF GAIN IMN 3 LIBRAS SABOR CHOCOLATE",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/3164.jpg",
         price: 74000
     },
@@ -3882,7 +3883,7 @@ export const PRODUCTS = [
     {
         id: 659,
         name: "THE WHEY OF GAIN IMN 3 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/3165.jpg",
         price: 74000
     },
@@ -3890,7 +3891,7 @@ export const PRODUCTS = [
     {
         id: 644,
         name: "THE WHEY OF GAIN IMN 6 LIBRAS SABOR CHOCOLATE",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/3162.jpg",
         price: 140000
     },
@@ -3898,7 +3899,7 @@ export const PRODUCTS = [
     {
         id: 643,
         name: "THE WHEY OF GAIN IMN 6 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/3161.jpg",
         price: 140000
     },
@@ -3930,7 +3931,7 @@ export const PRODUCTS = [
     {
         id: 400,
         name: "TITAN ARMY 12 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16006.jpg",
         price: 218000
     },
@@ -3938,7 +3939,7 @@ export const PRODUCTS = [
     {
         id: 398,
         name: "TITAN ARMY 2 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16004.jpg",
         price: 56000
     },
@@ -3946,7 +3947,7 @@ export const PRODUCTS = [
     {
         id: 399,
         name: "TITAN ARMY 5 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16005.jpG",
         price: 114000
     },
@@ -3954,7 +3955,7 @@ export const PRODUCTS = [
     {
         id: 404,
         name: "TITÁN BEEF MASS 2 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16010.jpg",
         price: 69000
     },
@@ -3962,7 +3963,7 @@ export const PRODUCTS = [
     {
         id: 405,
         name: "TITÁN BEEF MASS 5 LIBRAS SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16011.jpg",
         price: 130000
     },
@@ -3970,7 +3971,7 @@ export const PRODUCTS = [
     {
         id: 827,
         name: "TITAN BEEF MASS X15 SOBRES  SABOR VAINILLA",
-        category: "nador de peso",
+        category: "ganador de peso",
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/16026.jpg",
         price: 51000
     },
