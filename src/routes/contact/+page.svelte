@@ -1,5 +1,10 @@
+<script>
+
+	import { INFO_COMPANY } from "$lib/data/info";
+
+</script>
 <svelte:head>
-	<title>....</title>
+	<title>Contácatnos</title>
 </svelte:head>
 <section class="position-relative xs-bg-cover" style="background-image: url(assets/images/banner/banner-contact.jpg);">
 	<div class="xs-overlay" />
@@ -7,7 +12,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="xs-banner-area mt-5">
-					<h1 class="xs-banner-title">Contact <span>Us!</span></h1>
+					<h1 class="xs-banner-title">Contactanos <span>!</span></h1>
 				</div>
 			</div>
 		</div>
@@ -19,79 +24,38 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-8 mx-auto">
 				<div class="xs-section-heading text-center">
-					<h2>Find <span>Our GYMS</span></h2>
-					<p>World is committed to making participation in the event a harassment free experience for everyone, regardless.</p>
+					<h2 class="text-4xl font-extrabold border-text">Encuentranos</h2>
 				</div>
 			</div>
 		</div>
 		<!-- .row END -->
 
-		<div class="row">
+		<div class="row flex justify-center">
 			<div class="col-md-4">
 				<div class="xs-contact-list">
-					<h3><i class="icon icon-location" /> Manhattan, NY</h3>
-					<p><a href="https://www.google.com/maps/place/New+York,+NY,+USA/@40.6976637,-74.119764,11z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728" target="_blank">GymVast, 18 East 50th Street, 4th Floor,<br /> New York, NY 10022</a></p>
+					<h3><i class="icon icon-location" />  {INFO_COMPANY.ADDRESS} </h3>
 					<ul>
-						<li><span>PHONE:</span> <a href="tel:+360%202254%202265">+360 2254 2265</a></li>
+						<li><span>PHONE:</span> <a href="tel:{INFO_COMPANY.COUNTRY_CODE}{INFO_COMPANY.PHONE}"> {INFO_COMPANY.PHONE} </a></li>
 						<li>
 							<span>EMAIL:</span>
-							<p><a href="mailto:contact@gymvast.com">contact@gymvast.com</a></p>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="xs-contact-list">
-					<h3><i class="icon icon-location" /> Union City, NY</h3>
-					<p><a href="https://www.google.com/maps/place/New+York,+NY,+USA/@40.6976637,-74.119764,11z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728" target="_blank">GymVast, 18 East 50th Street, 4th Floor,<br /> New York, NY 10022</a></p>
-					<ul>
-						<li>
-							<span>PHONE:</span>
-							<p><a href="tel:+360%202254%202265">+360 2254 2265</a></p>
-						</li>
-						<li>
-							<span>EMAIL:</span>
-							<p><a href="mailto:contact@gymvast.com">contact@gymvast.com</a></p>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="xs-contact-list">
-					<h3><i class="icon icon-location" /> Sought Gate, La</h3>
-					<p><a href="https://www.google.com/maps/place/New+York,+NY,+USA/@40.6976637,-74.119764,11z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728" target="_blank">GymVast, 18 East 50th Street, 4th Floor,<br /> New York, NY 10022</a></p>
-					<ul>
-						<li>
-							<span>PHONE:</span>
-							<p><a href="tel:+360%202254%202265">+360 2254 2265</a></p>
-						</li>
-						<li>
-							<span>EMAIL:</span>
-							<p><a href="mailto:contact@gymvast.com">contact@gymvast.com</a></p>
+							<p><a href="mailto:contact@gymvast.com"> {INFO_COMPANY.EMAIL} </a></p>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		<!-- .row END -->
 	</div>
-	<!-- .container END -->
 </section>
-<!-- Contact End -->
 
-<!-- Contact Form -->
-<div id="xs-map" class="xs-map-contact" />
-<!-- Contact Form End -->
-
-<!-- Contact Form -->
+<iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7966.697735975389!2d-76.54605812201649!3d3.2632739246273883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e309eb749343cb7%3A0x1183a13d80e11eb6!2sCA%C3%91A%20DULCE%20CENTRO%20COMERCIAL!5e0!3m2!1sen!2sco!4v1696254233278!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen={true} title="s" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
 <section class="xs-pb-sm">
 	<div class="container">
 		<div class="xs-contact-form">
 			<div class="row">
 				<div class="col-lg-7 col-md-8 mx-auto">
 					<div class="xs-section-heading text-center">
-						<h2>Send <span>Message</span></h2>
-						<p>World is committed to making participation in the event harass ment free on experience for everyone, regardless.</p>
+						<h2 class="text-4xl font-extrabold border-text">Déjanos un mensaje</h2>
+						<p>Nos pondremos en contacto contigo lo más pronto posible</p>
 					</div>
 				</div>
 			</div>
@@ -99,66 +63,37 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="form-group xs-form-anim">
-							<label class="input-label" for="xs-name">Your name</label>
+							<label class="input-label" for="xs-name">Tú nombre</label>
 							<input type="text" id="xs-name" class="form-control" />
 						</div>
 						<div class="form-group xs-form-anim">
-							<label class="input-label" for="xs-email">Your email address</label>
+							<label class="input-label" for="xs-email">Tú dirección de correo</label>
 							<input type="text" id="xs-email" class="form-control" />
 						</div>
 						<div class="form-group xs-form-anim">
-							<label class="input-label" for="xs-phone">Mobile number</label>
+							<label class="input-label" for="xs-phone">Número de teléfono</label>
 							<input type="text" id="xs-phone" class="form-control" />
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group xs-form-anim xs-message-box">
-							<label class="input-label" for="xs-message">Your massage</label>
-							<textarea id="xs-message" class="form-control" />
+							<label class="input-label" for="xs-message">Mensaje</label>
+							<textarea id="xs-message" placeholder="...." class="form-control" />
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<p class="form-text text-muted xs-mt-50">We do not sell, share, trade your information with anyone for any reason. We won’t give spam mails.</p>
+						<p class="form-text text-muted xs-mt-50">No vendemos, compartimos ni intercambiamos su información con nadie por ningún motivo. No daremos correos spam.</p>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group xs-mt-60 text-right">
-							<button type="submit" id="xs_contact_submit" class="btn btn-primary">Submit Now <span class="icon icon-plus" /></button>
+							<a href="/" class="btn btn-primary text-black">Enviar</a>
 						</div>
 					</div>
 				</div>
 			</form>
 		</div>
-		<!-- .xs-contact-form END -->
 	</div>
-	<!-- .container END -->
 </section>
-<!-- Contact Form End -->
-
-<!-- Brand -->
-<div class="xs-cyan-bg xs-section-padding-xs">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-12">
-				<div class="owl-carousel owl-theme xs-brand-owl">
-					<div class="item">
-						<img src="assets/images/brand/brand1.png" alt="brand" />
-					</div>
-					<div class="item">
-						<img src="assets/images/brand/brand2.png" alt="brand" />
-					</div>
-					<div class="item">
-						<img src="assets/images/brand/brand3.png" alt="brand" />
-					</div>
-					<div class="item">
-						<img src="assets/images/brand/brand4.png" alt="brand" />
-					</div>
-					<div class="item">
-						<img src="assets/images/brand/brand5.png" alt="brand" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<div class="xs-cyan-bg xs-section-padding-xs" />
