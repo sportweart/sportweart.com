@@ -1,11 +1,14 @@
 <script>
-
-	import { INFO_COMPANY } from "$lib/data/info";
-
+	import { INFO_COMPANY } from '$lib/data/info';
 </script>
+
 <svelte:head>
 	<title>Contácatnos</title>
 </svelte:head>
+<br>
+<br>
+<br>
+<br>
 <section class="position-relative xs-bg-cover" style="background-image: url(assets/images/banner/banner-contact.jpg);">
 	<div class="xs-overlay" />
 	<div class="container">
@@ -33,7 +36,7 @@
 		<div class="row flex justify-center">
 			<div class="col-md-4">
 				<div class="xs-contact-list">
-					<h3><i class="icon icon-location" />  {INFO_COMPANY.ADDRESS} </h3>
+					<h3><i class="icon icon-location" /> {INFO_COMPANY.ADDRESS}</h3>
 					<ul>
 						<li><span>PHONE:</span> <a href="tel:{INFO_COMPANY.COUNTRY_CODE}{INFO_COMPANY.PHONE}"> {INFO_COMPANY.PHONE} </a></li>
 						<li>

@@ -20,39 +20,82 @@
 		}
 	});
 </script>
-
-<header class="elementskit-header xs-header-transparent" style="z-index: 40;">
+<header class="elementskit-header xs-header-transparent">
 	<div class="xs-container">
 		<div class="xs-navbar">
 			<a class="xs-navbar-brand" href="index.html">
-				<img src="assets/images/logo/logo-white.png" class="w-14 sm:w-10 md:w-20 lg:w-32  rounded-lg mt-2" alt="navbar logo" />
+				<img src="/assets/images/logo/logo-black.png" alt="navbar logo">
 			</a>
 			<nav class="elementskit-navbar ml-auto">
+				<!--  // god menu markup start -->
+
+				<!-- start humberger (for offcanvas toggler) -->
 				<button class="elementskit-menu-hamburger elementskit-menu-toggler">
-					<span class="elementskit-menu-hamburger-icon" />
-					<span class="elementskit-menu-hamburger-icon" />
-					<span class="elementskit-menu-hamburger-icon" />
+					<span class="elementskit-menu-hamburger-icon"></span>
+					<span class="elementskit-menu-hamburger-icon"></span>
+					<span class="elementskit-menu-hamburger-icon"></span>
 				</button>
-				<div class="elementskit-menu-container elementskit-menu-offcanvas-elements" style="background: black;">
+				<!-- end humberger -->
+
+				<!-- start menu container -->
+				<div class="elementskit-menu-container elementskit-menu-offcanvas-elements">
+					<!-- start menu item list -->
 					<ul class="elementskit-navbar-nav nav-alignment-dynamic">
 						<li>
-							<a href="/" class={text_menu_c} >Inicio</a>
+							<a href="/">Inicio</a>
 						</li>
 						<li>
-							<a href="/store" class={text_menu_c}>Tienda</a>
+							<a href="/store">Tienda</a>
 						</li>
 						<li>
-							<a href="/contact" class={text_menu_c}>Contacto</a>
+							<a href="/contact">Contacto</a>
 						</li>
-					</ul>
+					</ul><!-- end menu item list -->
+
+					<!-- start menu logo and close button (for mobile offcanvas menu) -->
+					<div class="elementskit-nav-identity-panel">
+						<h1 class="elementskit-site-title">
+							<a class="elementskit-nav-logo" href="index.html">
+								<img src="/assets/images/logo/logo-black.png" alt="navbar logo">
+							</a>
+						</h1>
+						<button class="elementskit-menu-close elementskit-menu-toggler" type="button">
+							<i class="icon icon-cancel"></i>
+						</button>
+					</div>
+					<!-- end menu logo and close button -->
 				</div>
-				<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler" />
+				<!-- end menu container -->
+
+				<!-- start offcanvas overlay -->
+				<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler">
+				</div>
+				<!-- end offcanvas overlay -->
+				<!-- // god menu markup end -->
 			</nav>
+			<ul class="xs-menu-tools">
+				<li>
+					<a href="#modal-popup-2" class="navsearch-button xs-modal-popup">
+						<i class="icon icon-search"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="offset-side-bar xs-modal-popup">
+						<i class="icon icon-cart"></i>
+						<span class="xs-badge">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="navSidebar-button">
+						<i class="icon icon-menu"></i>
+					</a>
+				</li>
+			</ul>
 		</div>
-	</div>
+	</div><!-- .container END -->
 </header>
 <slot />
-<footer class="footer-1">
+<!-- <footer class="footer-1">
 	<div class="xs-footer-top">
 		<div class="container">
 			<div class="row">
@@ -110,4 +153,4 @@
 			</div>
 		</div>
 	</div>
-</footer>
+</footer> -->
