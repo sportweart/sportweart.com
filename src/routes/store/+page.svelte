@@ -2,8 +2,9 @@
 	import { PRODUCTS } from '$lib/data/products';
 	import { formatMoney } from '$lib/helpers/helper';
 	import { lazyLoad } from '$lib/helpers/lazyload';
+	import productsStore from '$lib/store/products';
 
-	let products_showing = PRODUCTS;
+	let products_showing = $productsStore;
 	let search;
 	function find() {
 		if (search == '') {

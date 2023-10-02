@@ -1,5 +1,12 @@
 <script>
 	import { INFO_COMPANY } from '$lib/data/info';
+	import productsStore from '$lib/store/products';
+	import { onMount } from 'svelte';
+	
+	// let products = productsStore.subscribe
+	// onMount(()=>{
+	// 	console.log($productsStore);
+	// })
 </script>
 
 <svelte:head>
