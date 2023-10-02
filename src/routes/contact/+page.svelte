@@ -5,10 +5,10 @@
 <svelte:head>
 	<title>Contácatnos</title>
 </svelte:head>
-<br>
-<br>
-<br>
-<br>
+<br />
+<br />
+<br />
+<br />
 <section class="position-relative xs-bg-cover" style="background-image: url(assets/images/banner/banner-contact.jpg);">
 	<div class="xs-overlay" />
 	<div class="container">
@@ -31,8 +31,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- .row END -->
-
 		<div class="row flex justify-center">
 			<div class="col-md-4">
 				<div class="xs-contact-list">
@@ -99,4 +97,3 @@
 		</div>
 	</div>
 </section>
-<div class="xs-cyan-bg xs-section-padding-xs" />
