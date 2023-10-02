@@ -1,3 +1,20 @@
+<script>
+	import { PRODUCTS } from '$lib/data/products';
+	import { formatMoney } from '$lib/helpers/helper';
+	import { lazyLoad } from '$lib/helpers/lazyload';
+
+	let products_showing = PRODUCTS;
+	let search;
+	function find() {
+		if (search == '') {
+			products_showing = PRODUCTS;
+			return;
+		}
+		const resultados = PRODUCTS.filter((producto) => producto.name.toLowerCase().includes(search.toLowerCase()) || producto.category.toLowerCase().includes(search.toLowerCase()));
+		products_showing = resultados;
+	}
+</script>
+
 <svelte:head>
 	<title>Tienda</title>
 </svelte:head>
@@ -19,57 +36,24 @@
 </section>
 <section class="xs-section-padding">
 	<div class="container">
+		<input type="search" bind:value={search} on:input={find} class="form-control rounded-xl mb-5" placeholder="Busqueda" />
 		<div class="row">
-			<div class="col-lg-8 mx-auto">
-				<div class="xs-section-heading text-center">
-					<h2>Fitness <span>Shop</span></h2>
-					<p>World is committed to making participation in the event a harassment free experience for everyone, regardless of level of experience.</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4">
-				<div class="xs-shop">
-					<div class="xs-shop-thumb">
-						<img src="/assets/images/shop/shop-1.png" alt="shop" />
-					</div>
-					<div class="xs-shop-inner">
-						<a href="/" class="btn btn-primary">Buy Now</a>
-						<div class="xs-badge-wraper">
-							<span class="xs-price-badge">$75.000</span>
+			{#each products_showing as product}
+				<div class="col-lg-4 mb-5" data-aos="fade-up">
+					<div class="xs-shop id-{product.id}">
+						<div class="xs-shop-thumb h-[430px]">
+							<img style="height: 430px;" class="h-[430px] object-cover" use:lazyLoad={product.image} alt={product.name} />
 						</div>
-						<h3><a href="/">Multi Vitamins</a></h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="xs-shop">
-					<div class="xs-shop-thumb">
-						<img src="/assets/images/shop/shop-2.png" alt="shop" />
-					</div>
-					<div class="xs-shop-inner">
-						<a href="/" class="btn btn-primary">Buy Now</a>
-						<div class="xs-badge-wraper">
-							<span class="xs-price-badge">$75</span>
+						<div class="xs-shop-inner">
+							<a href="/" class="btn btn-primary">Comprar ahora</a>
+							<div class="xs-badge-wraper">
+								<span class="xs-price-badge" style="font-size: 20px !important;">{formatMoney(product.price)}</span>
+							</div>
+							<h3><a href="/"> {product.name} </a></h3>
 						</div>
-						<h3><a href="/">Protien ATHLETIC</a></h3>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="xs-shop">
-					<div class="xs-shop-thumb">
-						<img src="/assets/images/shop/shop-3.png" alt="shop" />
-					</div>
-					<div class="xs-shop-inner">
-						<a href="/" class="btn btn-primary">Buy Now</a>
-						<div class="xs-badge-wraper">
-							<span class="xs-price-badge">$75</span>
-						</div>
-						<h3><a href="/">Suppolement Caps</a></h3>
-					</div>
-				</div>
-			</div>
+			{/each}
 		</div>
 	</div>
 </section>
