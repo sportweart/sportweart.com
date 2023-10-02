@@ -37,14 +37,7 @@
 </head>
 
 <body>
-	<div style="display: contents">
-		%sveltekit.body%
-	</div>
-	<!--[if lt IE 10]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<!-- Header -->
-	<!-- header section -->
+
 	<header class="elementskit-header xs-header-transparent">
 		<div class="xs-container">
 			<div class="xs-navbar">
@@ -119,10 +112,7 @@
 			</div>
 		</div><!-- .container END -->
 	</header>
-	<!-- End header section -->
 
-	<!-- language switcher strart -->
-	<!-- xs modal -->
 	<div class="zoom-anim-dialog mfp-hide modal-searchPanel" id="modal-popup-2">
 		<div class="xs-search-panel">
 			<form action="#" method="POST" class="xs-search-group">
@@ -130,11 +120,7 @@
 				<button type="submit" class="search-button"><i class="icon icon-search"></i></button>
 			</form>
 		</div>
-	</div><!-- End xs modal -->
-	<!-- end language switcher strart -->
-
-	<!-- offset cart strart -->
-	<!-- sidebar cart item -->
+	</div>
 	<div class="xs-sidebar-group cart-group">
 		<div class="xs-overlay xs-bg-black"></div>
 		<div class="xs-sidebar-widget">
@@ -159,11 +145,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- END sidebar cart item -->
-	<!-- END offset cart strart -->
 
-	<!-- offset cart strart -->
-	<!-- sidebar cart item -->
 	<div class="xs-sidebar-group info-group">
 		<div class="xs-overlay xs-bg-black"></div>
 		<div class="xs-sidebar-widget">
@@ -203,15 +185,36 @@
 				</div>
 			</div>
 		</div>
-	</div> <!-- END sidebar widget item -->
-	<!-- END offset cart strart --><!-- Header End -->
+	</div>
 
+	<section id="banner" class="xs-light-bg position-relative" data-scrollax-parent="true" id="home">
+		<div class="container xs-clips-wraper">
+			<div class="xs-clips">
+				<img src="assets/images/shape/banner-light-clips.png" alt="clip">
+			</div>
+		</div>
+		<div class="owl-carousel owl-theme xs-slider-light-owl">
+			<div class="xs-slide-inner">
+				<div class="container">
+					<div class="banner-inner-wraper">
+						<h2 class="xs-before-text" data-text="FITN">Fitn</h2>
+						<div class="xs-light-slide-img3 xs-fadeInRight">
+							<img src="assets/images/slider-light/slide-3.png" alt="shape">
+						</div>
+						<h2 class="xs-after-text" data-text="ESS">ess</h2>
+					</div>
+				</div>
+				<div class="xs-shape xs-banner-light-left" data-scrollax="properties: { translateY: '-250px' }"
+					style="background-image: url(assets/images/shape/banner-light-left.png);"></div>
+				<img src="assets/images/shape/banner-light-clips-right.png" class="banner_right_shape"
+					data-scrollax="properties: { translateY: '250px' }" alt="">
+			</div>
+		</div>
+	</section>
 
-	<!-- Banner End -->
-
-	<!-- About Us -->
-	<section class="xs-section-padding" id="about">
-
+	<div style="display: contents">
+		%sveltekit.body%
+	</div>
 	<!-- Brand -->
 	<div class="xs-purple-bg xs-section-padding-xs">
 		<div class="container">
@@ -237,7 +240,7 @@
 				</div>
 			</div><!-- .row END -->
 		</div><!-- .container END -->
-	</div><!-- Brand end -->
+	</div>
 
 	<!-- footer start -->
 	<footer class="footer-1">
@@ -328,9 +331,42 @@
 				</div>
 			</div>
 		</div><!-- .xs-footer-bottom END -->
-	</footer><!-- footer end -->
+	</footer>
 
 	<!-- js file start -->
+
+
+
+	<script>
+		// Función para mostrar la alerta cuando cambia la parte hash de la URL
+	
+
+		function hideBanner() {
+			const banner = document.getElementById("banner");
+			if (banner) {
+				banner.style.display = "none";
+			}
+		}
+
+		function showBanner() {
+			const banner = document.getElementById("banner");
+			if (banner) {
+				banner.style.display = "block";
+			}
+		}
+
+		function handleRouteChange() {
+			const currentURL = window.location.pathname;
+
+			if (currentURL === "/") {
+				showBanner();
+			} else {
+				hideBanner();
+			}
+		}
+		setInterval(handleRouteChange, 10);
+	</script>
+
 	<script src="/assets/js/jquery-3.2.1.min.js"></script>
 	<script src="/assets/js/Popper.js"></script>
 	<script src="/assets/js/bootstrap.min.js"></script>

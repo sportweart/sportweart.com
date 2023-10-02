@@ -1,11 +1,18 @@
-<section class="xs-light-bg position-relative" data-scrollax-parent="true" id="home">
+<script>
+	import { onMount } from "svelte";
+
+	onMount(()=>{
+		// location.reload()
+	})
+</script>
+
+<!-- <section class="xs-light-bg position-relative" data-scrollax-parent="true" id="home">
 	<div class="container xs-clips-wraper">
 		<div class="xs-clips">
 			<img src="/assets/images/shape/banner-light-clips.png" alt="clip">
 		</div>
 	</div>
 
-	<!-- Start Carousel -->
 	<div class="owl-carousel owl-theme xs-slider-light-owl">
 		<div class="xs-slide-inner">
 			<div class="container">
@@ -21,7 +28,7 @@
 				style="background-image: url(/assets/images/shape/banner-light-left.png);"></div>
 			<img src="/assets/images/shape/banner-light-clips-right.png" class="banner_right_shape"
 				data-scrollax={"properties: { translateY: '250px' }"} alt="">
-		</div><!-- .xs-slide-inner -->
+		</div>
 
 		<div class="xs-slide-inner">
 			<div class="container">
@@ -42,12 +49,12 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- .container -->
+			</div>
 			<div class="xs-shape xs-banner-light-left" data-scrollax={"properties: { translateY: '-250px' }"}
 				style="background-image: url(/assets/images/shape/banner-light-left.png);"></div>
 			<div class="xs-shape xs-banner-light-right" data-scrollax={"properties: { translateY: '250px' }"}
 				style="background-image: url(/assets/images/shape/banner-light-right.png);"></div>
-		</div><!-- .xs-slide-inner -->
+		</div>
 
 		<div class="xs-slide-inner">
 			<div class="container">
@@ -67,13 +74,13 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- .container -->
+			</div>
 			<div class="xs-shape xs-banner-light-left" data-scrollax={"properties: { translateY: '-250px' }"}
 				style="background-image: url(/assets/images/shape/banner-light-left.png);"></div>
 			<div class="xs-shape xs-banner-light-right" data-scrollax={"properties: { translateY: '250px' }"}
 				style="background-image: url(/assets/images/shape/banner-light-right.png);"></div>
 		</div>
-</section>
+</section> -->
 
 
 <div class="container">
