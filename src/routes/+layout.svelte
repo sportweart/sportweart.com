@@ -25,7 +25,7 @@
 	<div class="xs-container">
 		<div class="xs-navbar">
 			<a class="xs-navbar-brand" href="index.html">
-				<img src="assets/images/logo/logo-white.png" class="w-32 rounded-lg mt-2" alt="navbar logo" />
+				<img src="assets/images/logo/logo-white.png" class="w-14 sm:w-10 md:w-20 lg:w-32  rounded-lg mt-2" alt="navbar logo" />
 			</a>
 			<nav class="elementskit-navbar ml-auto">
 				<button class="elementskit-menu-hamburger elementskit-menu-toggler">
