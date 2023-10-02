@@ -9,3 +9,34 @@
 		view-transition-name: var(--tag);
 	}
 }
+
+
+
+
+.floating_animation {
+	transform: translatey(0px);
+	animation: float 8s ease-in-out infinite;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+@keyframes float {
+	0% {
+		-webkit-filter: drop-shadow(5px 5px 5px #222);
+		filter: drop-shadow(5px 5px 5px #222);
+		transform: translatey(0px);
+	}
+
+	50% {
+		-webkit-filter: drop-shadow(5px 5px 5px #222);
+		filter: drop-shadow(5px 5px 5px #222);
+		transform: translatey(-50px);
+	}
+
+	100% {
+		-webkit-filter: drop-shadow(5px 5px 5px #222);
+		filter: drop-shadow(5px 5px 5px #222);
+		transform: translatey(0px);
+	}
+}
