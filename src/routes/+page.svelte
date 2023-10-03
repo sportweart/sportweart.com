@@ -24,8 +24,8 @@
 			<div class="row">
 				<div class="col-lg-8 mx-auto">
 					<div class="xs-section-heading text-center">
-						<h2 class="text-4xl font-extrabold border-text">Nuestros <span>Servicios</span></h2>
-						<p>World is committed to making participation in the event a harassment free experience for everyone, regardless of level of experience.</p>
+						<h2 class="text-4xl font-extrabold border-text">¿Qué te  <span>ofrecemos?</span></h2>
+						<p></p>
 					</div>
 				</div>
 			</div>
