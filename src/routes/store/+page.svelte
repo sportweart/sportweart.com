@@ -1,4 +1,5 @@
 <script>
+	import { SOCIAL } from '$lib/data/info';
 	import { PRODUCTS } from '$lib/data/products';
 	import { formatMoney } from '$lib/helpers/helper';
 	import { lazyLoad } from '$lib/helpers/lazyload';
@@ -40,20 +41,22 @@
 		<input type="search" bind:value={search} on:input={find} class="form-control rounded-xl mb-5" placeholder="Busqueda" />
 		<div class="row">
 			{#each products_showing as product}
-				<div class="col-lg-4 mb-5">
-					<div class="xs-shop id-{product.id}">
-						<div class="xs-shop-thumb h-[430px]">
-							<img style="height: 430px;" class="h-[430px] object-cover" use:lazyLoad={product.image} alt={product.name} />
-						</div>
-						<div class="xs-shop-inner">
-							<a href="/" class="btn btn-primary">Comprar ahora</a>
-							<div class="xs-badge-wraper">
-								<span class="xs-price-badge" style="font-size: 20px !important;">{formatMoney(product.price)}</span>
+				<a href={SOCIAL.WHATSAPP+'&text=Hola%20quiero%20adquirir%20el%20producto%20'+product.name} class="col-lg-4 mb-5" target="_blank">
+					<div >
+						<div class="xs-shop id-{product.id}">
+							<div class="xs-shop-thumb h-[430px]">
+								<img style="height: 430px;" class="h-[430px] object-cover" use:lazyLoad={product.image} alt={product.name} />
 							</div>
-							<h3><a href="/"> {product.name} </a></h3>
+							<div class="xs-shop-inner">
+								<a href={SOCIAL.WHATSAPP+'&text=Hola%20quiero%20adquirir%20el%20producto%20'+product.name} target="_blank" class="btn btn-primary">Comprar ahora</a>
+								<div class="xs-badge-wraper">
+									<span class="xs-price-badge" style="font-size: 20px !important;">{formatMoney(product.price)}</span>
+								</div>
+								<h3>{product.name}</h3>
+							</div>
 						</div>
 					</div>
-				</div>
+				</a>
 			{/each}
 		</div>
 	</div>
