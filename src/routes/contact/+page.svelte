@@ -1,12 +1,35 @@
 <script>
 	import { INFO_COMPANY } from '$lib/data/info';
-	import productsStore from '$lib/store/products';
-	import { onMount } from 'svelte';
-	
-	// let products = productsStore.subscribe
-	// onMount(()=>{
-	// 	console.log($productsStore);
-	// })
+	import sendForm from '$lib/helpers/sendEmail';
+
+	let name = '',
+		email = '',
+		phone = '',
+		message = '';
+	let responseMessage = '';
+	let colorResponseMessage = '';
+	async function send() {
+		if (name == '' || email == '' || phone == '' || message == '') {
+			responseMessage = '⚠️ Complete todos los campos';
+			colorResponseMessage = 'text-red-600';
+			return;
+		}
+		const DATA = JSON.stringify({
+			name: name,
+			email: email,
+			phone: phone,
+			message: message
+		});
+		const response = await sendForm(DATA);
+		if (response.error) {
+			responseMessage = '⚠️ Verifique los datos';
+			colorResponseMessage = 'text-red-600';
+		}
+		if (response.ok) {
+			responseMessage = 'Se envio el mensaje correctamente';
+			colorResponseMessage = 'text-green-600';
+		}
+	}
 </script>
 
 <svelte:head>
@@ -72,21 +95,21 @@
 					<div class="col-md-6">
 						<div class="form-group xs-form-anim">
 							<label class="input-label" for="xs-name">Tú nombre</label>
-							<input type="text" id="xs-name" class="form-control" />
+							<input bind:value={name} type="text" id="xs-name" class="form-control" />
 						</div>
 						<div class="form-group xs-form-anim">
 							<label class="input-label" for="xs-email">Tú dirección de correo</label>
-							<input type="text" id="xs-email" class="form-control" />
+							<input bind:value={email} type="text" id="xs-email" class="form-control" />
 						</div>
 						<div class="form-group xs-form-anim">
 							<label class="input-label" for="xs-phone">Número de teléfono</label>
-							<input type="text" id="xs-phone" class="form-control" />
+							<input bind:value={phone} type="text" id="xs-phone" class="form-control" />
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group xs-form-anim xs-message-box">
 							<label class="input-label" for="xs-message">Mensaje</label>
-							<textarea id="xs-message" placeholder="...." class="form-control" />
+							<textarea id="xs-message" bind:value={message} placeholder="...." class="form-control" />
 						</div>
 					</div>
 				</div>
@@ -96,10 +119,11 @@
 					</div>
 					<div class="col-md-6">
 						<div class="form-group xs-mt-60 text-right">
-							<a href="/" class="btn btn-primary text-black">Enviar</a>
+							<button on:click={send} type="button" class="btn btn-primary text-black bg-yellow-300">Enviar</button>
 						</div>
 					</div>
 				</div>
+				<span class={colorResponseMessage}>{responseMessage}</span>
 			</form>
 		</div>
 	</div>
