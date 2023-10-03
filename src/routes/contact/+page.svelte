@@ -38,7 +38,6 @@
 <br />
 <br />
 <br />
-<br />
 <section class="position-relative xs-bg-cover" style="background-image: url(assets/images/banner/banner-contact.jpg);">
 	<div class="xs-overlay" />
 	<div class="container">
