@@ -29,7 +29,7 @@
 	</div>
 </section>
 
-<section class="xs-section-padding xs-pb-sm">
+<section class="xs-section-padding xs-pb-sm" data-aos="fade-up">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-8 mx-auto">

@@ -35,12 +35,12 @@
 		</div>
 	</div>
 </section>
-<section class="xs-section-padding">
+<section class="xs-section-padding" data-aos="fade-up">
 	<div class="container">
 		<input type="search" bind:value={search} on:input={find} class="form-control rounded-xl mb-5" placeholder="Busqueda" />
 		<div class="row">
 			{#each products_showing as product}
-				<div class="col-lg-4 mb-5" data-aos="fade-up">
+				<div class="col-lg-4 mb-5">
 					<div class="xs-shop id-{product.id}">
 						<div class="xs-shop-thumb h-[430px]">
 							<img style="height: 430px;" class="h-[430px] object-cover" use:lazyLoad={product.image} alt={product.name} />
