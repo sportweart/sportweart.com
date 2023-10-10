@@ -2,7 +2,7 @@ export const INFO_COMPANY = {
     APP_NAME:'Sportweart',
     PHONE:'3127616715',
     EMAIL:'contacto@sportweart.com',
-    ADDRESS:'carrera 10 # 13-60 local 74 centro comercial caña dulce',
+    ADDRESS:'carrera 10 # 13-60 local 74 centro comercial caña dulce, valle del CAUCA',
     COUNTRY_CODE:'+57',
     COUNTRY:'Colombia',
     CITY:'Jamundi - Valle del cauca',
