@@ -1,4 +1,8 @@
 <script>
+	import Video from '$lib/components/Video.svelte';
+	import { changeText } from '$lib/helpers/helper.js';
+	import { onMount } from 'svelte';
+
 	let weight = null,
 		height = null;
 	var bmi = 0;
@@ -11,12 +15,64 @@
 		}
 	}
 
-	$:if (weight || height) {
+	$: if (weight || height) {
 		calculeBMI();
 	}
+	let pos_video = 1;
+	let source = `/assets/home/1.mp4`;
+	onMount(() => {
+		setInterval(() => {
+			pos_video = pos_video + 1;
+			pos_video = pos_video > 3 ? 1 : pos_video;
+			source = `/assets/home/${pos_video}.mp4`;
+		}, 5000);
+	});
+	const variations = ['LLEVA TU CUERP0 AL LIMITE', 'Desafía tus límites físicos al máximo.', 'rompe las barreras de tu cuerpo'];
+	onMount(() => {
+		changeText(variations);
+	});
 </script>
 
-<section class="xs-light-bg xs-section-padding xs-pb-sm" data-scrollax-parent="true" id="training">
+
+<section id="bannerxx" class="flex justify-center items-center relative object-cover" data-aos="fade-up">
+	
+	<div class="w-full h-[100vh] sectionx pt-[25px]">
+
+		<div class="absolute h-full w-full z-50 flex flex-wrap">
+			<div class=" h-full w-full p-10 flex justify-center flex-wrap items-center">
+				<h1 class="text-3xl text-center w-full font-bold tracking-tighter sm:text-5xl xl:text-[4rem]/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500"><span class="main_small" /></h1>
+				<br />
+		
+			</div>
+
+		</div>
+		<Video {source} />
+	</div>
+	<!-- <img src="/assets/images/home/main.jpg" alt="main" class="" style="height: 95vh;" /> -->
+	<!-- <div class="container xs-clips-wraper">
+		<div class="xs-clips">
+			<img src="assets/images/shape/banner-light-clips.png" alt="clip">
+		</div>
+	</div>
+	<div class="owl-carousel owl-theme xs-slider-light-owl">
+		<div class="xs-slide-inner">
+			<div class="container">
+				<div class="banner-inner-wraper">
+					<h2 class="xs-before-text" data-text="FITN">Fitn</h2>
+					<div class="xs-light-slide-img3 xs-fadeInRight">
+						<img src="assets/images/slider-light/slide-3.png" alt="shape">
+					</div>
+					<h2 class="xs-after-text" data-text="ESS">ess</h2>
+				</div>
+			</div>
+			<div class="xs-shape xs-banner-light-left" data-scrollax="properties: { translateY: '-250px' }"
+				style="background-image: url(assets/images/shape/banner-light-left.png);"></div>
+			<img src="assets/images/shape/banner-light-clips-right.png" class="banner_right_shape"
+				data-scrollax="properties: { translateY: '250px' }" alt="">
+		</div>
+	</div> -->
+</section>
+<section class="xs-light-bg xs-section-padding xs-pb-sm bg_image" data-scrollax-parent="true" id="training">
 	<div class="xs-team-wraper">
 		<div class="xs-shape xs-team-shape" data-scrollax={"properties: { translateY: '-100%' }"} style="background-image: url(/assets/images/shape/dot.png);" />
 		<div class="xs-shape xs-team-right-shape" data-scrollax={"properties: { translateY: '100%' }"} style="background-image: url(/assets/images/shape/memphis.png);" />
@@ -24,8 +80,8 @@
 			<div class="row">
 				<div class="col-lg-8 mx-auto">
 					<div class="xs-section-heading text-center">
-						<h2 class="text-4xl font-extrabold border-text">¿Qué te  <span>ofrecemos?</span></h2>
-						<p></p>
+						<h2 class="text-4xl font-extrabold border-text">¿Qué te <span>ofrecemos?</span></h2>
+						<p />
 					</div>
 				</div>
 			</div>
@@ -166,7 +222,7 @@
 						</div>
 
 						<div class="xs-colummn-heading2">
-							<h2>Tú <span>BMI </span>Es:  {bmi}</h2>
+							<h2>Tú <span>BMI </span>Es: {bmi}</h2>
 						</div>
 					</div>
 				</div>
@@ -174,3 +230,20 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.sectionx::after {
+		content: '';
+		background: rgba(0, 0, 0, 0.493);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	
+	
+	
+</style>

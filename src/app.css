@@ -13,7 +13,12 @@
 .btn-primary{
 	color: #000;
 }
-
+body {
+	background-image: url(https://i.pinimg.com/736x/f2/6d/e3/f26de3da5b96aa50ed07b109d6beed2c.jpg);
+}
+.bg_image{
+	background-image: url(https://i.pinimg.com/736x/f2/6d/e3/f26de3da5b96aa50ed07b109d6beed2c.jpg) !important;
+}
 
 .floating_animation {
 	transform: translatey(0px);

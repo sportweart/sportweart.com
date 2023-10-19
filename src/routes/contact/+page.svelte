@@ -56,19 +56,19 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-8 mx-auto">
 				<div class="xs-section-heading text-center">
-					<h2 class="text-4xl font-extrabold border-text">Encuentranos</h2>
+					<h2 class="text-4xl font-extrabold border-text text-white">Encuentranos</h2>
 				</div>
 			</div>
 		</div>
 		<div class="row flex justify-center">
 			<div class="col-md-4">
 				<div class="xs-contact-list">
-					<h3><i class="icon icon-location" /> {INFO_COMPANY.ADDRESS}</h3>
+					<h3 class="text-white"><i class="icon icon-location text-white" /> {INFO_COMPANY.ADDRESS}</h3>
 					<ul>
-						<li><span>PHONE:</span> <a href="tel:{INFO_COMPANY.COUNTRY_CODE}{INFO_COMPANY.PHONE}"> {INFO_COMPANY.PHONE} </a></li>
+						<li><span class="text-white">PHONE:</span> <a class="text-white" href="tel:{INFO_COMPANY.COUNTRY_CODE}{INFO_COMPANY.PHONE}"> {INFO_COMPANY.PHONE} </a></li>
 						<li>
-							<span>EMAIL:</span>
-							<p><a href="mailto:contact@gymvast.com"> {INFO_COMPANY.EMAIL} </a></p>
+							<span class="text-white">EMAIL:</span>
+							<p ><a href="mailto:contact@gymvast.com" class="text-white"> {INFO_COMPANY.EMAIL} </a></p>
 						</li>
 					</ul>
 				</div>
@@ -78,14 +78,14 @@
 </section>
 
 <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7966.697735975389!2d-76.54605812201649!3d3.2632739246273883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e309eb749343cb7%3A0x1183a13d80e11eb6!2sCA%C3%91A%20DULCE%20CENTRO%20COMERCIAL!5e0!3m2!1sen!2sco!4v1696254233278!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen={true} title="s" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
-<section class="xs-pb-sm">
+<section class="xs-pb-sm bg_image" >
 	<div class="container">
 		<div class="xs-contact-form">
 			<div class="row">
 				<div class="col-lg-7 col-md-8 mx-auto">
 					<div class="xs-section-heading text-center">
-						<h2 class="text-4xl font-extrabold border-text">Déjanos un mensaje</h2>
-						<p>Nos pondremos en contacto contigo lo más pronto posible</p>
+						<h2 class="text-4xl font-extrabold border-text ">Déjanos un mensaje</h2>
+						<p class="">Nos pondremos en contacto contigo lo más pronto posible</p>
 					</div>
 				</div>
 			</div>

@@ -4338,11 +4338,4 @@ export const PRODUCTS = [
         image: "https://distribuidoragoldnutrition.com/wp-content/uploads/2023/04/3216.jpg",
         price: 87000
     },
-    {
-        id: 796,
-        name: "RONY COLEMAN WHEY",
-        category: "Salud general",
-        image: "https://tiendavirtualfdc.com/wp-content/uploads/2017/11/king-whey_almacenefdc_colombia-PM.jpeg",
-        price: 502500
-    },
 ]

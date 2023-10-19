@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -8,6 +8,9 @@ dependencies:
   aos:
     specifier: ^2.3.4
     version: 2.3.4
+  svelte-lazy-image:
+    specifier: ^0.5.1
+    version: 0.5.1
   yup:
     specifier: ^1.2.0
     version: 1.2.0
@@ -1478,6 +1481,10 @@ packages:
     dependencies:
       svelte: 4.2.0
     dev: true
+
+  /svelte-lazy-image@0.5.1:
+    resolution: {integrity: sha512-BDwywMngYjrEtL73N2ZKYYnWlNBWSnw31y1Mb3kNeXVc/9iDir6Ew3bfuDtuEyi3evBFXF0jixkCMFuTseWjWQ==}
+    dev: false
 
   /svelte-preprocess@5.0.3(postcss-load-config@3.1.4)(postcss@8.4.14)(svelte@4.2.0)(typescript@5.0.2):
     resolution: {integrity: sha512-GrHF1rusdJVbOZOwgPWtpqmaexkydznKzy5qIC2FabgpFyKN57bjMUUUqPRfbBXK5igiEWn1uO/DXsa2vJ5VHA==}
