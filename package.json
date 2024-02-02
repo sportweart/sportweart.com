@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@notionhq/client": "^2.2.14",
 		"aos": "^2.3.4",
 		"svelte-lazy-image": "^0.5.1",
 		"yup": "^1.2.0"
