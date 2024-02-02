@@ -119,7 +119,7 @@
 					<label for="search" class="text-white">Busqueda por nombre y categoría</label>
 					<input type="search" on:input={find} id="search" bind:value={search} class="form-control rounded-xl mb-5" placeholder="Busqueda" />
 				</div>
-				<div>
+				<!-- <div>
 					<label for="x" class="text-white">Categorías disponibles</label>
 					<div class="flex flex-wrap mb-5">
 						{#each CATEGORIES as category}
@@ -132,7 +132,7 @@
 							>
 						{/each}
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 
