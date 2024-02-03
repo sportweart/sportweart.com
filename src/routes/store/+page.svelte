@@ -147,7 +147,7 @@
 							<div class="xs-shop id-">
 								<div class="xs-shop-thumb h-[430px] flex justify-center items-center">
 									<!-- <img style="height: 430px;" class="h-[430px] object-cover" src={product.image} alt={product.name} /> -->
-									<LazyImage src={product.image} placeholder="https://via.placeholder.com/250?text=Cargando..." alt={product.name} />
+									<LazyImage src={product.image} class="h-[430px]" placeholder="https://via.placeholder.com/250?text=Cargando..." alt={product.name} />
 								</div>
 								<div class="xs-shop-inner">
 									<a href={SOCIAL.WHATSAPP + '&text=Hola%20quiero%20adquirir%20el%20producto%20' + product.name} target="_blank" class="btn btn-primary">Comprar ahora</a>

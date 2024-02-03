@@ -37,7 +37,7 @@
 <header class="elementskit-header xs-header-transparent bg-black text-white" style="background: #000;">
 	<div class="xs-container">
 		<div class="xs-navbar">
-			<a class="xs-navbar-brand" href="index.html">
+			<a class="xs-navbar-brand" href="/">
 				<img src="/brand/logo-white.png" class="w-[250px] rounded-lg" alt="navbar logo" />
 			</a>
 			<nav class="elementskit-navbar ml-auto">
@@ -62,20 +62,6 @@
 							<a on:click={handleChange} class="text-white" href="/contact">Contacto</a>
 						</li>
 					</ul>
-					<!-- end menu item list -->
-
-					<!-- start menu logo and close button (for mobile offcanvas menu) -->
-					<!-- <div class="elementskit-nav-identity-panel">
-						<h1 class="elementskit-site-title">
-							<a class="elementskit-nav-logo" href="index.html">
-								<img src="/brand/logo-white.png" alt="navbar logo">
-							</a>
-						</h1>
-						<button class="elementskit-menu-close elementskit-menu-toggler" type="button">
-							<i class="icon icon-cancel"></i>
-						</button>
-					</div> -->
-					<!-- end menu logo and close button -->
 				</div>
 				<!-- end menu container -->
 
@@ -151,7 +137,7 @@
 			</div>
 			<div class="sidebar-textwidget">
 				<div class="sidebar-logo-wraper">
-					<a href="index.html">
+					<a href="/">
 						<img src="/brand/logo-white.png" alt="sidebar logo" draggable="false" />
 					</a>
 				</div>
