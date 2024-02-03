@@ -91,13 +91,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" class="offset-side-bar xs-modal-popup">
+					<a href="/" class="offset-side-bar xs-modal-popup">
 						<i class="icon icon-cart"></i>
 						<span class="xs-badge">0</span>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="navSidebar-button">
+					<a href="/" class="navSidebar-button">
 						<i class="icon icon-menu"></i>
 					</a>
 				</li> -->
@@ -121,7 +121,7 @@
 		<div class="sidebar-widget-container">
 			<div class="widget-heading media">
 				<div class="media-body">
-					<a href="#" class="close-side-widget">
+					<a href="/" class="close-side-widget">
 						<i class="icon icon-cancel" />
 					</a>
 				</div>
@@ -133,7 +133,7 @@
 					<i class="icon icon-shopping-cart" />
 				</p>
 				<p class="xs-btn-wraper">
-					<a class="btn btn-primary" href="#">Return To Shop</a>
+					<a class="btn btn-primary" href="/">Return To Shop</a>
 				</p>
 			</div>
 		</div>
@@ -145,7 +145,7 @@
 	<div class="xs-sidebar-widget">
 		<div class="sidebar-widget-container">
 			<div class="widget-heading">
-				<a href="#" class="close-side-widget">
+				<a href="/" class="close-side-widget">
 					<i class="icon icon-cancel" />
 				</a>
 			</div>
