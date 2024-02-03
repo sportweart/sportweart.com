@@ -140,7 +140,7 @@
 		</div>
 
 		{#if !show_searching}
-			<div class="row gap-2">
+			<div class="row gap-2 flex justify-center">
 				{#each products_showing as product}
 					<a href={SOCIAL.WHATSAPP + '&text=Hola%20quiero%20adquirir%20el%20producto%20' + product.name} class="w-[100%] sm:w-[48%] md:w-[30%] lg:w-[22%]  mb-5 rounded-md overflow-hidden bg-[#f4f4f4]" target="_blank">
 						<div>
