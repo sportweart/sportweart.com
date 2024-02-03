@@ -150,7 +150,7 @@
 									<LazyImage src={product.image} class="h-[430px]" placeholder="https://via.placeholder.com/250?text=Cargando..." alt={product.name} />
 								</div>
 								<div class="xs-shop-inner">
-									<a href={SOCIAL.WHATSAPP + '&text=Hola%20quiero%20adquirir%20el%20producto%20' + product.name} target="_blank" class="btn btn-primary">Comprar ahora</a>
+									<a href={SOCIAL.WHATSAPP + '&text=Hola%20quiero%20adquirir%20el%20producto%20' + product.name} target="_blank" class="btn btn-primary text-black" >Comprar ahora</a>
 									<div class="xs-badge-wraper">
 										<span class="xs-price-badge" style="font-size: 20px !important;">{formatMoney(product.price)}</span>
 									</div>
