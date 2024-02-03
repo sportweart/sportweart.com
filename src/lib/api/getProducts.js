@@ -12,16 +12,19 @@ export async function getProductsFromNotion() {
     services = results.map(page => {
         // @ts-ignore
         const { properties } = page
-        const { precio, nombre, imagen } = properties
+        const { precio, nombre, imagen, categoria } = properties
 
         return {
             price: precio.number ?? null,
+            category:  (categoria.select) ? categoria.select.name : null,
             name: (nombre.title && nombre.title.length > 0) ? nombre.title[0].plain_text : null,
             image: imagen.files[0] ? imagen.files[0].file.url : null,
         }
     })
 
-    services = services.filter((service) => service.name !== null)
+    services = services.filter((service) => service.name !== null && service.price !== null && service.image !== null && service.category !== null)
+
+    console.log(services.length, 'services');
 
     return services
 }

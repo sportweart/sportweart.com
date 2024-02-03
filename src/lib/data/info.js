@@ -16,11 +16,15 @@ export const SOCIAL = {
 }
 
 export const CATEGORIES = [
-    'PROTEINA LIMPIA',
-    'PRE ENTRENO',
-    'CREATINA',
-    'GANADOR DE PESO',
-    'HORMONAL',
-    'AMINOACIDOS',
-    'EQUIPO DEPORTIVO'
+    'proteina-limpia',
+    'aminoacidos',
+    'pre-entreno',
+    'creatina',
+    'ganador-de-peso',
+    'hormonal',
+    'sarms',
+    'quemador',
+    'multivitaminico',
+    'glutamina',
+    'salud general',
 ]
