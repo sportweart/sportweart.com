@@ -5,9 +5,10 @@
 	import { LazyImage, useLazyImage as lazyImage } from 'svelte-lazy-image';
 	import { formatMoney } from '$lib/helpers/helper';
 	import Loading from '$lib/components/Loading.svelte';
+	import { goto } from '$app/navigation';
 	let currentPage = 1;
 	export let data;
-	const PRODUCTS_PER_PAGE = 15;
+	const PRODUCTS_PER_PAGE = 16;
 	const PRODUCTS = data.products;
 
 	const TOTAL_PAGES = Math.ceil(PRODUCTS.length / PRODUCTS_PER_PAGE);
@@ -15,6 +16,7 @@
 	let products_showing = getProductsByPage(currentPage);
 	let show_paginator = true;
 	function changePage(page) {
+		goto(`#filter_input`);
 		currentPage = page;
 		paginator = generateVisiblePages();
 		products_showing = getProductsByPage(currentPage);
@@ -115,7 +117,7 @@
 <section class="xs-section-padding" data-aos="fade-up">
 	<div class="container">
 		<div>
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="filter_input">
 				<div>
 					<label for="search" class="text-white">Busqueda por nombre y categoría</label>
 					<input type="search" on:input={find} id="search" bind:value={search} class="form-control rounded-xl mb-5" placeholder="Busqueda" />
@@ -138,12 +140,12 @@
 		</div>
 
 		{#if !show_searching}
-			<div class="row">
+			<div class="row gap-2">
 				{#each products_showing as product}
-					<a href={SOCIAL.WHATSAPP + '&text=Hola%20quiero%20adquirir%20el%20producto%20' + product.name} class="col-lg-4 mb-5 rounded-md overflow-hidden" target="_blank">
+					<a href={SOCIAL.WHATSAPP + '&text=Hola%20quiero%20adquirir%20el%20producto%20' + product.name} class="w-[100%] sm:w-[48%] md:w-[30%] lg:w-[22%]  mb-5 rounded-md overflow-hidden bg-[#f4f4f4]" target="_blank">
 						<div>
 							<div class="xs-shop id-">
-								<div class="xs-shop-thumb h-[430px]">
+								<div class="xs-shop-thumb h-[430px] flex justify-center items-center">
 									<!-- <img style="height: 430px;" class="h-[430px] object-cover" src={product.image} alt={product.name} /> -->
 									<LazyImage src={product.image} placeholder="https://via.placeholder.com/250?text=Cargando..." alt={product.name} />
 								</div>
